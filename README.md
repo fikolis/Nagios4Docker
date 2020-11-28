@@ -1,4 +1,4 @@
-# Docker-Nagios
+# Nagios4Docker
 
 Docker image for Nagios
 
