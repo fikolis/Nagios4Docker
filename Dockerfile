@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Jason Rivers <jason@jasonrivers.co.uk>
+LABLE 
 
 ENV NAGIOS_HOME            /opt/nagios
 ENV NAGIOS_USER            nagios
@@ -164,7 +164,7 @@ RUN cd /tmp                                                          && \
 RUN cd /opt                                                                         && \
     pip install pymssql                                                             && \
     git clone https://github.com/willixix/naglio-plugins.git     WL-Nagios-Plugins  && \
-    git clone https://github.com/JasonRivers/nagios-plugins.git  JR-Nagios-Plugins  && \
+    git clone https://github.com/Fikolis/nagios-plugins.git  JR-Nagios-Plugins  && \
     git clone https://github.com/justintime/nagios-plugins.git   JE-Nagios-Plugins  && \
     git clone https://github.com/nagiosenterprises/check_mssql_collection.git   nagios-mssql  && \
     chmod +x /opt/WL-Nagios-Plugins/check*                                          && \
