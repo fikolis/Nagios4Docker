@@ -9,7 +9,7 @@
 version: '3'
 services:
   nagios:
-    image: jasonrivers/nagios:latest
+    image: fikolis/nagios:latest
     volumes:
     - nagiosetc:/opt/nagios/etc
     - nagiosvar:/opt/nagios/var
